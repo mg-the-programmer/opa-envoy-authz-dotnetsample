@@ -6,7 +6,7 @@ package envoy.authz
     default allow = false
 
     allow {
-        parsed_path[0] == "health"
+        parsed_path[0] == "weatherforecast"
         http_request.method == "GET"
     }
 
